@@ -1,0 +1,27 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "Il mondo è popolato da oggetti sia animati che non animati. La differenza è che questi ultimi hanno solo un certo numero di punti vita (hits) e non hanno statistiche di forza, intelligenza o destrezza. Ad es. una porta è un oggetto inanimato ma attaccabile in quanto fornito di punti vita. Possono entrambi essere oggetti di *Buffs*, ovvero effetti di cura, protezione, miglioramenti vari.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "webpack-dev-server",
+    "live": "webpack --watch & live-server --open=/public",
+    "jest": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^22.1.1",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "happypack": "^4.0.1",
+    "jest": "^22.1.4",
+    "live-server": "^1.2.0",
+    "ts-jest": "^22.0.3",
+    "ts-loader": "^3.4.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  }
+}
